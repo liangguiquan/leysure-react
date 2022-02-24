@@ -1,0 +1,155 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: rgb(137, 137, 137);
+    font-size: 14px;
+    font-family: "\9ED1\4F53-\7B80", "Microsoft YaHei", Arial, sans-serif !important;
+    /* font-family: "黑体-简", "Microsoft YaHei", Arial, sans-serif; */
+}
+
+td,
+th,
+caption {
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+i,
+b,
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 自己后面添加的样式 */
+/* .slick-slider .slick-list{margin-left: 2%;margin-right: 2%!important;} */
+/* .slick-slider .slick-prev {
+    left: 30px;
+    z-index: 1;
+}
+.slick-slider .slick-next {
+    right: 50px;
+    z-index: 1;
+}
+.slick-slider .slick-prev:before,.slick-slider .slick-next:before {
+    font-size: 40px;
+    color: rgba(56, 54, 53, 0.3)!important;
+}
+
+.slick-slider:hover .slick-prev:before,.slick-slider:hover .slick-next:before {
+    color: rgba(137, 137, 137, 1)!important;
+}
+
+.slick-slider .slick-dots {
+    bottom: 25px!important;
+}
+
+@media screen and (max-width: 1024px){
+    .slick-slider .slick-prev {
+        display: none!important;
+    }
+    .slick-slider .slick-next {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .slick-slider .slick-dots {
+        bottom: 25px!important;
+    }
+} */
+
+
+
+

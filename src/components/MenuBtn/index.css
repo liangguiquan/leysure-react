@@ -1,0 +1,49 @@
+
+.botton {
+    float: right;
+    box-sizing: border-box;
+    width: 44px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.bottonIcon {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){ 
+    .botton {
+        float: right;
+        box-sizing: border-box;
+        width: 23px;
+        height: 23px;
+    }
+
+    .bottonIcon {
+        width: 100%;
+    }
+}
+
+.closeBotton {
+    float: right;
+    box-sizing: border-box;
+}
+
+.close {
+    box-sizing: border-box;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-image: url('../../assets/images/close.png');
+    background-size: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+    .close {
+        box-sizing: border-box;
+        width: 23px;
+        height: 23px;
+    }
+}
+

@@ -1,0 +1,27 @@
+.nav{
+    height: 100%;
+    background: rgb(56, 54, 53);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav li{
+    height: 35px;
+    padding: 25px 20px;
+}
+
+.nav li a {
+    color: #f2f2f2;
+    padding: 0 10px;
+}
+
+.nav li a:hover, .nav li a.active{
+    color: #066dce;
+    border-left: 4px solid #066dce;
+}

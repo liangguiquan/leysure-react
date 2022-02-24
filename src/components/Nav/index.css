@@ -1,0 +1,104 @@
+
+.nav {
+    position: absolute;
+    top: 210px;
+    left: 360px;
+    right: 360px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+.link {
+    font-size: 21px;
+    font-weight: lighter;
+    color: rgb(137, 137, 137);
+}
+
+.link:hover {
+    color: rgb(247, 247, 247);
+}
+
+.active {
+    color: rgb(247, 247, 247);
+}
+
+@media screen and (max-width: 1700px){
+    .nav {
+        position: absolute;
+        top: 210px;
+        left: 200px;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .nav {
+        position: absolute;
+        top: 210px;
+        left: 100px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .nav {
+        position: absolute;
+        top: 210px;
+        left: 60px;
+        right: 60px;
+    }
+    .link {
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(137, 137, 137);
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .nav {
+        position: absolute;
+        top: 190px;
+        left: 48px;
+        right: 48px;
+    }
+
+    .link {
+        font-size: 16px;
+        font-weight: lighter;
+        color: rgb(137, 137, 137);
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .nav {
+        position: absolute;
+        top: 190px;
+        left: 24px;
+        right: 24px;
+    }
+
+    .link {
+        font-size: 14px;
+        font-weight: lighter;
+        color: rgb(137, 137, 137);
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    .nav {
+        position: absolute;
+        top: 116px;
+        left: 24px;
+        right: 24px;
+    }
+
+    .link {
+        font-size: 14px;
+        font-weight: lighter;
+        color: rgb(137, 137, 137);
+    }
+}

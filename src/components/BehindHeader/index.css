@@ -1,0 +1,45 @@
+.header{
+    background: rgb(0, 0, 0);
+    color: #066dce;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 0 30px;
+}
+
+.logo {
+    float: left;
+    width: 11%;
+    margin-right: 15px;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.title {
+    float: left;
+    margin: 0;
+    font-size: 30px;
+    color: #066dce;
+    font-weight: 600;
+}
+
+.loginInfo {
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.loginInfo span{
+    margin-left: 30px;
+}
+
+.loginOutBtn{
+    background-color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+}

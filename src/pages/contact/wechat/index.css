@@ -1,0 +1,40 @@
+
+.codeWrapper {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+}
+
+.code{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    transform: translateY(340px);
+}
+
+.code img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 414px){
+    .code{
+        width: 168px;
+        height: 168px;
+        margin: 0 auto;
+        transform: translateY(218px);
+    }
+
+    .code img {
+        width: 100%;
+        height: 100%;
+    }
+}

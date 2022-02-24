@@ -1,0 +1,102 @@
+
+.emailWrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.email {
+    width: 850px;
+    height: 220px;
+    margin: 0 auto;
+    transform: translateY(340px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    height: 100%;
+}
+
+.item>p {
+    font-family: "\9ED1\4F53-\7B80", "Microsoft YaHei", Arial, sans-serif;
+    font-size: 36px;
+    color: rgb(137, 137, 137);
+    margin:0;
+}
+
+.item>span {
+    font-family: "\9ED1\4F53-\7B80", "Microsoft YaHei", Arial, sans-serif;
+    display: block;
+    padding-top: 40px;
+    font-size: 24px;
+    color: rgb(137, 137, 137);
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+@media screen and (max-width: 1024px){
+    .email {
+        width: 850px;
+        height: 450px;
+        margin: 0 auto;
+        transform: translateY(430px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item {
+        margin-bottom: 100px;
+        height: 100%;
+    }
+
+    .item>p {
+        font-family: "\9ED1\4F53-\7B80", "Microsoft YaHei", Arial, sans-serif;
+        font-size: 24px;
+        color: rgb(137, 137, 137);
+        margin:0;
+    }
+
+    .item>span {
+        font-family: "\9ED1\4F53-\7B80", "Microsoft YaHei", Arial, sans-serif;
+        display: block;
+        padding-top: 40px;
+        font-size: 18px;
+        color: rgb(137, 137, 137);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .email {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        transform: translateY(265px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .email {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        transform: translateY(151px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

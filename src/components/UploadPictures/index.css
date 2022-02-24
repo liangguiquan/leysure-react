@@ -1,0 +1,13 @@
+.pictures {
+    width: 150px;
+    /* height: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picturesImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
